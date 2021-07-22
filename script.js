@@ -154,9 +154,9 @@ function Phonevalidate()
      var email=document.getElementById("email").value;
      var password=document.getElementById("password").value;
      var phonenumber=document.getElementById('phnumber').value;
-     var phonenumbercheck = /^[A-Za-z]+$/;
+     var cname = /^[A-Za-z]+$/;
      var email1=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-     var contactno = /^\d{10}$/;
+     var phonenumbercheck = /^\d{10}$/;
  
      if(email&&password&&fname&&phnumber&& fname.match(cname) && email.match(email1) && password.length>8 &&phonenumber.match(phonenumbercheck)){
        alert("Registration Successful");
