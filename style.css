@@ -1,0 +1,131 @@
+/*Body_section*/
+body{
+    margin:0;
+    padding:0;
+    float:top;
+    margin-top: 30px;
+    background:url(background.jpg);
+    background-size:cover;
+    background-position: center;
+    
+ }
+ 
+ /*Center_section*/
+ #signin
+ {
+     background:rgba(0,0,0,0.3);
+     position: center; 
+     padding:30px;
+     border-radius: 40px;
+     margin:2% auto;
+     height: 509px;;
+     width:450px;
+ }
+
+
+ h1{
+     position: center;
+ }
+
+ /*Text_and_passsword_section*/
+ input[type="text"],
+ input[type="password"]
+ {
+     box-sizing: border-box;
+     border-radius:10px; 
+     padding:15px;
+     width: 440px;
+     height: 40px;
+     border: none;
+     outline: none;
+     font-weight: 400;
+     font-size: 18px;
+ }
+ 
+/*Submit_section*/
+input[type="submit"]
+{
+    margin:auto;
+    margin-bottom: 28px;
+    width: 444px;
+    height: 40px;
+    background:blue;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    cursor:pointer; 
+    font-size: 24px;  
+}
+
+ /*Error_Denotion*/
+ span{
+    color:red;
+    font-size:20px;
+    float:left;
+    margin-right: 40px;
+    
+}
+
+/*Avathar_image_section*/
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position:absolute;
+    top: 110px;
+    left:calc(50% - 50px);
+
+}
+
+ 
+ /*Label_for_email_and_password*/
+ label{
+    font-size: 35px;
+    color:white;
+}
+
+ /*Check_box_section*/
+ input[type=checkbox]
+ {
+     cursor: pointer;
+ }
+
+  /*Cursor_touches_the_button_changes_color*/
+  input[type="submit"]:hover,
+  input[type="submit"]:focus
+  {
+      background:green;
+  }
+
+.form{
+    margin-top:135px;
+}
+
+.password {
+    margin-top: 55px;
+}
+.submit {
+    margin-top: 46px;
+}
+
+ .tick{
+    color:green;
+}
+
+ h1{
+     
+     text-align: center;
+     color:white;
+ }
+ 
+ h2{
+     color:white;
+     font-size:20px;
+     margin-top: 28px;
+ }
+ 
+
+ 
+
+ 
