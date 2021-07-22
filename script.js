@@ -158,7 +158,7 @@ function Phonevalidate()
      var email1=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
      var contactno = /^\d{10}$/;
  
-     if(email&&password&&fname&&phnumber&& fname.match(cname) && email.match(email1) && password.match(password1) &&phonenumber.match(phonenumbercheck)){
+     if(email&&password&&fname&&phnumber&& fname.match(cname) && email.match(email1) && password.length>8 &&phonenumber.match(phonenumbercheck)){
        alert("Registration Successful");
      }
  
