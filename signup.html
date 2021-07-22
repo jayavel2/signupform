@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+                  <!--Header_tag-->
+  <head>
+                  <!--Title_tag-->
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="mstyle1.css"/>
+    <script src="script.js"></script>
+  </head>
+
+                  <!--Body_tag-->
+  <body>
+       <b> <p>Registration</p></b>
+    <div id="signup">
+            <!--Name-->
+         <div class="name">
+            <label><b>Name</b><span>*</span></label> 
+            <input type="text" placeholder="Enter Name" name="name" id="fname" onkeyup="NameValidate()" >
+            <span class="error" id="lblErr"></span>
+        </div>
+
+          <!--Email-->
+        <div class="email">
+            <label><b>Email</b><span>*</span></label> 
+            <input type="text" placeholder="Enter Email" name="email" id="email" onkeyup="Validateemail()" >
+            <span class="error" id="eemail"></span>
+        </div>
+
+          <!--Contact_number-->
+        <div class="phone-number">
+            <label><b>Contact number</b><span>*</span></label> 
+            <input type="number" placeholder="Enter Contact Number" name="phnumber" id="phnumber" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" placeholder="Contact number" value="" onkeyup="Phonevalidate()"/>
+            <span class="error" id="eph"></span>
+        </div>
+
+        <!-- Password -->
+        <div class="password">
+          <label><b>Password</b><span>*</span></label>
+          <input type="password" name="password" placeholder="Enter Password" id="password" value=""  onkeyup="Validatepassword()"/>
+          <span class="error" id="epass"></span>
+        </div>
+        <div class="checkbox">
+           <input type="checkbox" onclick="myFunction()">Show my password
+        </div>
+
+       <!--Submit_Button-->
+       <div class="submit">
+         <input type="submit" name="signup-button" value="Register" onclick="Rvalidate()"/> 
+       </div>
+                  <!--Signin-->
+        <div class="sign-in">
+            <b> Already having an account? </b><a class='a' href='/signin.html' class='active'>Sign In</a>
+
+        </div>
+       
+    </div>
+      
+  </body>
+
+</html>

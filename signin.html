@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+                            <!--Header_tag-->
+    <head>
+        <!--Title_section-->
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="script.js"></script> 
+    </head>
+                            <!--Body_tag-->
+    <body>
+        
+            <h1>SIGN IN</h1>
+            <div id="signin">
+                <!--Avathar_image-->    
+                <img src="avathar.png" alt="Avatar" class="avatar">
+            <div class="form">
+                <!-- Email -->
+                <div class="email">
+                    <label>Email</label> 
+                    <input type="text" placeholder="Enter Email" name="email" id="email" onkeyup="Validateemail()" >
+                    <span class="error" id="eemail"></span>
+                </div>
+                <!-- Password -->
+                <div class="password">
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="Enter Password" id="password" value=""  onkeyup="Validatepassword()"/>
+                    <span class="error" id="epass"></span><br>
+                    <h2><input type="checkbox" onclick="myFunction()">Show my password</h2>
+                </div>
+                
+
+                <!-- Submit -->
+                <div class="submit">
+                    <input type="submit" name="signup-button" value="LOGIN" onclick="Validate()"/>
+                </div>
+                <div class="sign-up">
+                    <b>Don't have an account? </b><a class='a' href='/signup.html' id='active'>Sign Up</a>
+                </div>
+            </div>
+            </div>
+            
+    </body>
+</html>
